@@ -8,5 +8,13 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "deployd",
+    "dpd",
+    "module",
+    "env",
+    "var",
+    "dotenv"
+  ],
 }
