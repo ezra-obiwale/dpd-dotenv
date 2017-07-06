@@ -1,0 +1,12 @@
+{
+  "name": "dpd-dotenv",
+  "version": "1.0.0",
+  "description": "Read .env file and make the variables available to event scripts",
+  "main": "index.js",
+  "repository": "https://github.com/ezra-obiwale/dpd-dotenv.git",
+  "author": "Ezra Obiwale <contact@ezraobiwale.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
