@@ -1,6 +1,11 @@
 (function (Context) {
-    require('dotenv').config();
+    require('dotenv').config()
     Context.prototype.env = function (name, def) {
-        return process.env[name] || process.env[name.toUpperCase()] || def;
-    };
-})(require('deployd/lib/context'));
+        const value = process.env[name] || process.env[name.toUpperCase()] || def
+        try {
+            return eval(value)
+        } catch (e) {
+            return value
+        }
+    }
+})(require('deployd/lib/context'))
